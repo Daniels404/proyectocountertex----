@@ -1,0 +1,54 @@
+[
+  {
+    "ContainingType": "SistemaCounterTex.Controllers.AccesoController",
+    "Method": "Registrarse",
+    "RelativePath": "api/Acceso",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaCounterTex.Controllers.AccesoController",
+    "Method": "Registrarse",
+    "RelativePath": "api/Acceso",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "SistemaCounterTex.ViewModels.UsuarioVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaCounterTex.Controllers.AccesoController",
+    "Method": "Login",
+    "RelativePath": "api/Acceso",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaCounterTex.Controllers.AccesoController",
+    "Method": "Login",
+    "RelativePath": "api/Acceso",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "SistemaCounterTex.ViewModels.LoginVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
